@@ -3,47 +3,47 @@ import React from 'react';
 const Certifications = () => {
   const certifications = [
     {
-      icon: 'fab fa-aws',
+      icon: 'fa-solid fa-city',
       color: 'text-orange-400',
-      title: 'AWS Certified Developer',
-      issuer: 'Amazon Web Services',
-      year: '2023'
+      title: 'MERN Stack Certified Developer',
+      issuer: 'Techpile Technology Pvt. Ltd.',
+      year: '2025'
+    },
+        {
+      icon: 'fas fa-trophy',
+      color: 'text-yellow-400',
+      title: 'Best Frontend Developer',
+      issuer: 'Sagar Institute of Technology & Management',
+      year: '2024'
     },
     {
       icon: 'fab fa-google',
       color: 'text-blue-400',
-      title: 'Google Cloud Professional',
-      issuer: 'Google Cloud Platform',
+      title: 'Php Certified Developer',
+      issuer: 'Softpro India Lko.',
       year: '2022'
     },
-    {
-      icon: 'fas fa-trophy',
-      color: 'text-yellow-400',
-      title: 'Best Frontend Developer',
-      issuer: 'TechCorp Inc.',
-      year: '2023'
-    },
-    {
-      icon: 'fab fa-react',
-      color: 'text-blue-400',
-      title: 'React Expert Certification',
-      issuer: 'Meta (Facebook)',
-      year: '2022'
-    },
-    {
-      icon: 'fas fa-medal',
-      color: 'text-purple-400',
-      title: 'Hackathon Winner',
-      issuer: 'SF Tech Challenge',
-      year: '2021'
-    },
-    {
-      icon: 'fas fa-star',
-      color: 'text-green-400',
-      title: 'Employee of the Year',
-      issuer: 'StartupXYZ',
-      year: '2021'
-    }
+    // {
+    //   icon: 'fab fa-react',
+    //   color: 'text-blue-400',
+    //   title: 'React Expert Certification',
+    //   issuer: 'Meta (Facebook)',
+    //   year: '2022'
+    // },
+    // {
+    //   icon: 'fas fa-medal',
+    //   color: 'text-purple-400',
+    //   title: 'Hackathon Winner',
+    //   issuer: 'SF Tech Challenge',
+    //   year: '2021'
+    // },
+    // {
+    //   icon: 'fas fa-star',
+    //   color: 'text-green-400',
+    //   title: 'Employee of the Year',
+    //   issuer: 'StartupXYZ',
+    //   year: '2021'
+    // }
   ];
 
   return (

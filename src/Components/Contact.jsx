@@ -1,6 +1,18 @@
 import React from 'react';
-
+import emailjs from 'emailjs-com';
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_3skb8l5', 'template_1c9mmgt', e.target, 'KuY6d2CApGdGpp3y0')
+      .then((result) => {
+        alert('Message sent successfully!');
+      }, (error) => {
+        alert('Something went wrong!');
+      });
+
+    e.target.reset();
+  };
   return (
     <section id="contact" className="py-20">
       <div className="max-w-6xl mx-auto px-4">
@@ -14,34 +26,33 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <i className="fas fa-envelope text-blue-400 text-xl w-8"></i>
-                <span>john.smith@email.com</span>
+                <a href='mailto:sonusahani.dev@gmail.com'>sonusahani.dev@gmail.com</a>                                    
               </div>
               <div className="flex items-center">
                 <i className="fas fa-phone text-blue-400 text-xl w-8"></i>
-                <span>+1 (555) 123-4567</span>
+                <a href="tel:+917080085907">
+                  +91 7080085907
+                </a>
               </div>
               <div className="flex items-center">
                 <i className="fas fa-map-marker-alt text-blue-400 text-xl w-8"></i>
-                <span>San Francisco, CA</span>
+                <span>Lucknow, Uttar Pradesh, India</span>
               </div>
             </div>
             <div className="flex space-x-4 mt-8">
-              <a href="#" className="text-2xl text-gray-400 hover:text-blue-400 transition">
+              <a href="https://github.com/sonusahani-dev" className="text-2xl text-gray-400 hover:text-blue-400 transition">
                 <i className="fab fa-github"></i>
               </a>
-              <a href="#" className="text-2xl text-gray-400 hover:text-blue-400 transition">
+              <a href="https://www.linkedin.com/in/sonu--sahani" className="text-2xl text-gray-400 hover:text-blue-400 transition">
                 <i className="fab fa-linkedin"></i>
               </a>
-              <a href="#" className="text-2xl text-gray-400 hover:text-blue-400 transition">
+              <a href=" https://x.com/iamsonu1101?t=y6W89HcGAKuwdj2OQUad8A&s=08" className="text-2xl text-gray-400 hover:text-blue-400 transition">
                 <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="text-2xl text-gray-400 hover:text-blue-400 transition">
-                <i className="fab fa-dribbble"></i>
               </a>
             </div>
           </div>
           <div>
-            <form className="space-y-6">
+          <form onSubmit={sendEmail} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium mb-2">Name</label>
                 <input type="text" className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:outline-none focus:border-blue-400" />

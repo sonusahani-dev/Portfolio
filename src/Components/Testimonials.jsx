@@ -5,23 +5,23 @@ const Testimonials = () => {
     {
       initials: 'SR',
       gradient: 'from-blue-400 to-purple-600',
-      name: 'Sarah Rodriguez',
+      name: 'Diya Rai',
       position: 'CTO, TechCorp',
-      quote: '"John is an exceptional developer who consistently delivers high-quality work. His expertise in React and ability to mentor others makes him invaluable to our team."'
+      quote: '"Sonu is an exceptional developer who consistently delivers high-quality work. His expertise in React and ability to mentor others makes him invaluable to our team."'
     },
     {
       initials: 'MJ',
       gradient: 'from-green-400 to-blue-600',
-      name: 'Michael Johnson',
-      position: 'Product Manager',
-      quote: '"Working with John was a pleasure. He understood our requirements perfectly and delivered a beautiful, functional application that exceeded our expectations."'
+      name: 'Rahul Soni',
+      position: 'CEO & Founder',
+      quote: '"Working with Sonu was a pleasure. He understood our requirements perfectly and delivered a beautiful, functional application that exceeded our expectations."'
     },
     {
       initials: 'AL',
       gradient: 'from-purple-400 to-pink-600',
-      name: 'Anna Lee',
+      name: 'Amit Chuahan',
       position: 'UI/UX Designer',
-      quote: '"John\'s attention to detail and ability to implement pixel-perfect designs is remarkable. He\'s also great at suggesting improvements that enhance user experience."'
+      quote: '"Sonu Sahani\'s attention to detail and ability to implement pixel-perfect designs is remarkable. He\'s also great at suggesting improvements that enhance user experience."'
     }
   ];
 

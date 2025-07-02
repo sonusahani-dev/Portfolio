@@ -4,17 +4,31 @@ const Education = () => {
   const educationItems = [
     {
       icon: 'fas fa-graduation-cap',
-      title: 'Bachelor of Science in Computer Science',
-      institution: 'Stanford University',
-      period: '2015 - 2019',
-      description: 'Focused on software engineering, algorithms, and web development. Graduated Magna Cum Laude with a 3.8 GPA.'
+      title: 'Bachelor of Technology in Computer Science',
+      institution: 'Sagar institute of Technology & Management, Barabanki',
+      period: '2022 - 2025',
+      description: 'Focused on software engineering, algorithms, and web development. Graduated with a 7.8 CGPA.'
     },
     {
-      icon: 'fas fa-certificate',
-      title: 'Full Stack Web Development',
-      institution: 'freeCodeCamp',
-      period: '2018',
-      description: 'Comprehensive certification covering HTML, CSS, JavaScript, Node.js, React, and database management.'
+      icon: 'fas fa-school',
+      title: 'Diploma',
+      institution: 'Jawahar Lal Nehru Polytechnic, Mahmoodabad, Sitapur',
+      period: '2019-2022',
+      description: 'Focused on software engineering, covering HTML, CSS, JavaScript, Php, and database management. completed with 74.50%'
+    },
+        {
+      icon: 'fas fa-school',
+      title: 'Intermediate',
+      institution: 'Saraswati Vidya Mandir, Arya Nagar (North) Gorakhpur',
+      period: '2018-2019',
+      description: 'Focused on my Schooling and completed with 76%'
+    },
+            {
+      icon: 'fas fa-school',
+      title: 'High School',
+      institution: 'S K P I C Pedari Buzurg Siddharth Nagar',
+      period: '2016-2017',
+      description: 'Focused on my Schooling and completed with 75.50%'
     }
   ];
 

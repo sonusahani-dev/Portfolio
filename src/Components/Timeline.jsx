@@ -3,25 +3,20 @@ import React from 'react';
 const Timeline = () => {
   const timelineItems = [
     {
-      title: 'Senior React Developer at TechCorp',
-      period: '2022 - Present',
-      description: 'Leading frontend development and mentoring team members'
+      title: 'Junior Full Stack Developer at Techpile',
+      period: '2024 - Present',
+      description: 'Leading frontend and backend development and mentoring team members'
+    },
+        {
+      title: 'Graduated from Aktu University',
+      period: '2025',
+      description: 'Bachelor of Technology in Computer Science and Engineering'
     },
     {
-      title: 'Frontend Developer at StartupXYZ',
-      period: '2020 - 2022',
-      description: 'Developed multiple production applications and mobile apps'
+      title: 'Frontend Developer at Softpro India',
+      period: '01 Jan 2021 - 01 June 2021',
+      description: 'Developed multiple production applications.'
     },
-    {
-      title: 'Junior Web Developer at WebSolutions',
-      period: '2019 - 2020',
-      description: 'Started professional career building websites for clients'
-    },
-    {
-      title: 'Graduated from Stanford University',
-      period: '2019',
-      description: 'Bachelor of Science in Computer Science, Magna Cum Laude'
-    }
   ];
 
   return (

@@ -75,10 +75,10 @@ const GitHubStats = () => {
   }, []);
 
   const stats = [
-    { value: '150+', label: 'Repositories' },
-    { value: '500+', label: 'Commits' },
+    { value: '5+', label: 'Repositories' },
+    { value: '400+', label: 'Commits' },
     { value: '50+', label: 'Pull Requests' },
-    { value: '25+', label: 'Contributors' }
+    { value: '05+', label: 'Contributors' }
   ];
 
   return (

@@ -4,28 +4,28 @@ const Projects = () => {
   const projects = [
     {
       gradient: 'from-blue-500 to-purple-600',
-      icon: 'fas fa-shopping-cart',
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration.',
+      icon: 'fa-solid fa-house-chimney-medical',
+      title: 'Hospital Management System ',
+      description: 'Full-stack HMS solution with TypeScript, Node.js, and API integration.',
       tags: [
-        { name: 'React', color: 'bg-blue-600' },
+        { name: 'TypeScript', color: 'bg-blue-600' },
         { name: 'Node.js', color: 'bg-green-600' },
-        { name: 'MongoDB', color: 'bg-purple-600' }
+        { name: 'PostgreSql', color: 'bg-purple-600' }
       ],
       links: [
         { text: 'Live Demo', url: '#' },
-        { text: 'GitHub', url: '#' }
+        { text: 'GitHub', url: 'https://github.com/sonusahani-dev/HMS' }
       ]
     },
     {
       gradient: 'from-green-500 to-blue-600',
-      icon: 'fas fa-chart-line',
-      title: 'Analytics Dashboard',
-      description: 'Real-time analytics dashboard with interactive charts and data visualization.',
+      icon: 'fa-solid fa-utensils',
+      title: 'Swiggy Clone',
+      description: 'Swiggy clone built using HTML, CSS, and Bootstrap to mimic food delivery UI.',
       tags: [
-        { name: 'React', color: 'bg-blue-600' },
-        { name: 'D3.js', color: 'bg-yellow-600' },
-        { name: 'Firebase', color: 'bg-red-600' }
+        { name: 'HTML', color: 'bg-blue-600' },
+        { name: 'CSS', color: 'bg-yellow-600' },
+        { name: 'Bootstrap', color: 'bg-red-600' }
       ],
       links: [
         { text: 'Live Demo', url: '#' },
@@ -34,16 +34,16 @@ const Projects = () => {
     },
     {
       gradient: 'from-purple-500 to-pink-600',
-      icon: 'fas fa-mobile-alt',
-      title: 'Task Management App',
-      description: 'Cross-platform mobile app for task and project management.',
+      icon: 'fa-solid fa-capsules',
+      title: 'Medico Management System',
+      description: 'Full-stack MMS solution with Next.js, Node.js, and Restful API  integration.',
       tags: [
-        { name: 'React Native', color: 'bg-blue-600' },
+        { name: 'Next.js', color: 'bg-blue-600' },
         { name: 'Redux', color: 'bg-purple-600' },
-        { name: 'GraphQL', color: 'bg-green-600' }
+        { name: 'Rest API', color: 'bg-green-600' }
       ],
       links: [
-        { text: 'App Store', url: '#' },
+        { text: 'Live Demo', url: '#' },
         { text: 'GitHub', url: '#' }
       ]
     }

@@ -1,29 +1,33 @@
 import React from 'react';
 
 const Blog = () => {
-  const articles = [
-    {
-      gradient: 'from-blue-500 to-purple-600',
-      icon: 'fas fa-code',
-      date: 'December 15, 2023',
-      title: 'Advanced React Patterns You Should Know',
-      description: 'Explore advanced React patterns that can help you write more maintainable and scalable applications.'
-    },
-    {
-      gradient: 'from-green-500 to-blue-600',
-      icon: 'fas fa-rocket',
-      date: 'November 28, 2023',
-      title: 'Optimizing React App Performance',
-      description: 'Learn practical techniques to improve your React application\'s performance and user experience.'
-    },
-    {
-      gradient: 'from-purple-500 to-pink-600',
-      icon: 'fas fa-mobile-alt',
-      date: 'November 10, 2023',
-      title: 'Building Cross-Platform Apps with React Native',
-      description: 'A comprehensive guide to getting started with React Native development for mobile applications.'
-    }
-  ];
+const articles = [
+  {
+    gradient: 'from-blue-500 to-purple-600',
+    icon: 'fas fa-code',
+    date: 'December 15, 2024',
+    title: 'Advanced React Patterns You Should Know',
+    description: 'Explore advanced React patterns that can help you write more maintainable and scalable applications.',
+    url: 'https://github.com/sonusahani-dev/blogs/blob/main/advanced-react-patterns.md'
+  },
+  {
+    gradient: 'from-green-500 to-blue-600',
+    icon: 'fas fa-rocket',
+    date: 'November 28, 2023',
+    title: 'Optimizing React App Performance',
+    description: 'Learn practical techniques to improve your React application\'s performance and user experience.',
+    url: 'https://github.com/sonusahani-dev/blogs/blob/main/react-performance.md'
+  },
+  {
+    gradient: 'from-purple-500 to-pink-600',
+    icon: 'fas fa-mobile-alt',
+    date: 'November 10, 2023',
+    title: 'Building Cross-Platform Apps with React Native',
+    description: 'A comprehensive guide to getting started with React Native development for mobile applications.',
+    url: 'https://github.com/sonusahani-dev/blogs/blob/main/react-cross-platform.md'
+  }
+];
+
 
   return (
     <section id="blog" className="py-20">
@@ -42,7 +46,10 @@ const Blog = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">{article.title}</h3>
                 <p className="text-gray-300 mb-4">{article.description}</p>
-                <a href="#" className="text-blue-400 hover:underline">Read More →</a>
+              <a href={article.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">
+                Read More →
+              </a>
+
               </div>
             </div>
           ))}
