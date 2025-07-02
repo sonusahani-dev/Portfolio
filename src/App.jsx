@@ -17,7 +17,6 @@ import Blog from './Components/Blog'
 import FAQ from './Components/FAQ'
 import Newsletter from './Components/Newsletter'
 import Contact from './Components/Contact'
-import Confetti from './Components/Confetti'
 import Footer from './components/Footer';
 
 
@@ -47,7 +46,6 @@ function App() {
           <FAQ />             
           <Newsletter />             
           <Contact />             
-          <Confetti />    
           <Footer />         
 
          </>} />
