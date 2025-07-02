@@ -17,7 +17,7 @@ const Certifications = () => {
       year: '2024'
     },
     {
-      icon: 'fab fa-google',
+      icon: 'fa-solid fa-republican',
       color: 'text-blue-400',
       title: 'Php Certified Developer',
       issuer: 'Softpro India Lko.',
