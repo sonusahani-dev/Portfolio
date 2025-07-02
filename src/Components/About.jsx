@@ -26,8 +26,12 @@ const About = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center">
-              <i className="fas fa-user text-6xl text-white"></i>
+            <div className="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center overflow-hidden">
+              <img
+                src="/images/profile.jpg"
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
