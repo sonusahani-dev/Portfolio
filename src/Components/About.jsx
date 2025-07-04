@@ -9,7 +9,7 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Hello! I'm Sonu Sahani</h3>
             <p className="text-gray-300 mb-6">
-              I'm a passionate MERN Stack developer with 7 months of experience creating beautiful, functional, and user-friendly applications. I specialize in modern JavaScript frameworks and have a keen eye for design and user experience.
+              I'm a passionate MERN Stack developer with 1+ years of experience creating beautiful, functional, and user-friendly applications. I specialize in modern JavaScript frameworks and have a keen eye for design and user experience.
             </p>
             <p className="text-gray-300 mb-6">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing and mentoring.
