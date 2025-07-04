@@ -121,3 +121,30 @@
         font-display: swap;
         }
 
+        /* For smoother transitions */
+.mobile-menu {
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(45deg, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Mobile menu link styles */
+.nav-link-mobile {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: background 0.3s;
+}
+
+.nav-link-mobile:hover {
+  background: rgba(99, 102, 241, 0.1);
+}
+
+
+
