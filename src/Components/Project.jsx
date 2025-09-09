@@ -29,7 +29,7 @@ const Projects = () => {
       ],
       links: [
         { text: 'Live Demo', url: '#' },
-        { text: 'GitHub', url: '#' }
+        { text: 'GitHub', url: 'https://github.com/sonusahani-dev/swiggy' }
       ]
     },
     {
