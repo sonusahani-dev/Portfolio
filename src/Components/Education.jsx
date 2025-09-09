@@ -7,7 +7,7 @@ const Education = () => {
       title: 'Bachelor of Technology in Computer Science',
       institution: 'Sagar institute of Technology & Management, Barabanki',
       period: '2022 - 2025',
-      description: 'Focused on software engineering, algorithms, and web development. Graduated with a 7.8 CGPA.'
+      description: 'Focused on software engineering, algorithms, and web development. Graduated with a 7.18 CGPA.'
     },
     {
       icon: 'fas fa-school',

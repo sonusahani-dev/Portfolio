@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: 'MERN Stack Developer',
       company: 'Techpile Technology Ptv. Ltd.',
-      period: '2024 - Present',
+      period: '1 year',
       location: 'Lucknow, India',
       description: 'Junior Full Stack development for multiple high-traffic applications serving 100K+ users. Mentored junior developers and established best practices for the development team.',
       achievements: [

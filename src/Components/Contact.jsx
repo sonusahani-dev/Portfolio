@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <i className="fas fa-map-marker-alt text-blue-400 text-xl w-8"></i>
-                <span>Lucknow, Uttar Pradesh, India</span>
+                <span>Sector-2, Greater Noida, UP, India</span>
               </div>
             </div>
             <div className="flex space-x-4 mt-8">

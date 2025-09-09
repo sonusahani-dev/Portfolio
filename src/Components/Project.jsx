@@ -20,8 +20,8 @@ const Projects = () => {
     {
       gradient: 'from-green-500 to-blue-600',
       icon: 'fa-solid fa-utensils',
-      title: 'Swiggy Clone',
-      description: 'Swiggy clone built using HTML, CSS, and Bootstrap to mimic food delivery UI.',
+      title: 'Swiggy Replica',
+      description: 'Swiggy Replica built using HTML, CSS, and Bootstrap to mimic food delivery UI.',
       tags: [
         { name: 'HTML', color: 'bg-blue-600' },
         { name: 'CSS', color: 'bg-yellow-600' },
@@ -34,17 +34,32 @@ const Projects = () => {
     },
     {
       gradient: 'from-purple-500 to-pink-600',
-      icon: 'fa-solid fa-capsules',
-      title: 'Medico Management System',
-      description: 'Full-stack MMS solution with Next.js, Node.js, and Restful API  integration.',
+      icon: 'fa-solid fa-photo-film',
+      title: 'Pixelsphere',
+      description: 'Pixelshpere solution with React.js, Node.js, and Restful API  integration.',
       tags: [
         { name: 'Next.js', color: 'bg-blue-600' },
         { name: 'Redux', color: 'bg-purple-600' },
         { name: 'Rest API', color: 'bg-green-600' }
       ],
       links: [
+        { text: 'Live Demo', url: 'https://pixelsphere.netlify.app/?' },
+        { text: 'GitHub', url: 'https://github.com/sonusahani-dev/pixelsphere' }
+      ]
+    },
+        {
+      gradient: 'from-purple-500 to-pink-600',
+      icon: 'fa-solid fa-hotel',
+      title: 'Destination-Hotel App',
+      description: 'MERN hotel app with dynamic schemas, CRUD, and seamless integration.',
+      tags: [
+        { name: 'React.js', color: 'bg-yellow-600' },
+        { name: 'Context API', color: 'bg-red-600' },
+        { name: 'Rest API', color: 'bg-pink-600' }
+      ],
+      links: [
         { text: 'Live Demo', url: '#' },
-        { text: 'GitHub', url: '#' }
+        { text: 'GitHub', url: 'https://github.com/sonusahani-dev/general-assessment-sonu-sahani' }
       ]
     }
   ];

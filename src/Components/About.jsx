@@ -17,7 +17,7 @@ const About = () => {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center">
                 <i className="fas fa-map-marker-alt text-blue-400 mr-2"></i>
-                <span>Jankipuram sec-H, Lucknow</span>
+                <span>Sector-2, Greater Noida, UP</span>
               </div>
               <div className="flex items-center">
                 <i className="fas fa-envelope text-blue-400 mr-2"></i>
