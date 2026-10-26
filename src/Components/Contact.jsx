@@ -5,9 +5,9 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_3skb8l5', 'template_1c9mmgt', e.target, 'KuY6d2CApGdGpp3y0')
-      .then((_result) => {
+      .then(() => {
         alert('Message sent successfully!');
-      }, (_error) => {
+      }, () => {
         alert('Something went wrong!');
       });
 
