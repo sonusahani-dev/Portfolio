@@ -9,7 +9,7 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-semibold mb-4">Hello! I'm Sonu Sahani</h3>
             <p className="text-gray-300 mb-6">
-              I'm a passionate MERN Stack developer with 7 months of experience creating beautiful, functional, and user-friendly applications. I specialize in modern JavaScript frameworks and have a keen eye for design and user experience.
+              Aspiring MERN Stack Developer with strong foundations in web development and programming. Proficient in building scalable and responsive applications using MongoDB, Express.js, React.js, and Node.js. Seeking opportunities to apply skills, contribute to impactful projects, and grow as a full-stack developer.
             </p>
             <p className="text-gray-300 mb-6">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical writing and mentoring.
@@ -17,11 +17,15 @@ const About = () => {
             <div className="flex flex-wrap gap-4">
               <div className="flex items-center">
                 <i className="fas fa-map-marker-alt text-blue-400 mr-2"></i>
-                <span>Jankipuram sec-H, Lucknow</span>
+                <span>Gurugram, Haryana, India</span>
               </div>
               <div className="flex items-center">
                 <i className="fas fa-envelope text-blue-400 mr-2"></i>
                 <span>sonusahani.dev@gmail.com</span>
+              </div>
+              <div className="flex items-center">
+                <i className="fas fa-phone text-blue-400 mr-2"></i>
+                <span>+91 7080085907</span>
               </div>
             </div>
           </div>

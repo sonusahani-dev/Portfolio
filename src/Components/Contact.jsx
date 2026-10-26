@@ -5,9 +5,9 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_3skb8l5', 'template_1c9mmgt', e.target, 'KuY6d2CApGdGpp3y0')
-      .then((result) => {
+      .then((_result) => {
         alert('Message sent successfully!');
-      }, (error) => {
+      }, (_error) => {
         alert('Something went wrong!');
       });
 
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center">
                 <i className="fas fa-map-marker-alt text-blue-400 text-xl w-8"></i>
-                <span>Lucknow, Uttar Pradesh, India</span>
+                <span>Gurugram, Haryana, India</span>
               </div>
             </div>
             <div className="flex space-x-4 mt-8">

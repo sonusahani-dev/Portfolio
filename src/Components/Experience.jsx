@@ -3,41 +3,29 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'MERN Stack Developer',
-      company: 'Techpile Technology Ptv. Ltd.',
-      period: '2024 - Present',
-      location: 'Lucknow, India',
-      description: 'Junior Full Stack development for multiple high-traffic applications serving 100K+ users. Mentored junior developers and established best practices for the development team.',
+      title: 'Full Stack Developer',
+      company: 'Matchbest Software Pvt. Ltd.',
+      period: 'Sept 2025 - Present',
+      location: 'Gurugram, India',
+      description: 'Working on scalable AI and CRM platforms using microservices architecture. Integrated AI models with credit-based systems and developed full-featured CRM/CMS solutions.',
       achievements: [
-        'Reduced application load time by 40% through performance optimization',
-        'Implemented automated testing reducing bugs by 60%',
-        'Led migration from legacy jQuery to modern React architecture'
+        'Xelta.ai — Built scalable AI platform with microservices; integrated BytePlus & Kling AI models with a credit-based system using Next.js, TypeScript, Node.js, Express, Redis, Docker, PostgreSQL/MongoDB',
+        'Xelta CMS — Developed CRM/CMS system with React.js, TypeScript, HTML, CSS, Bootstrap; integrated RESTful APIs with real-time data handling and efficient state management',
+        'AVA-CRM — Built CRM frontend using React.js & TypeScript; integrated voice bot APIs and ensured real-time data synchronization via REST APIs'
       ]
     },
     {
-      title: 'Frontend Developer',
-      company: 'Softpro India',
-      period: '6 months',
-      location: 'On-site',
-      description: 'Developed responsive web applications using Php Collaborated with design team to implement pixel-perfect UI components.',
+      title: 'MERN Stack Intern',
+      company: 'Techpile Technology Pvt. Ltd.',
+      period: '2024 - 2025',
+      location: 'Lucknow, India',
+      description: 'Completed MERN Full Stack training, gaining hands-on experience in MongoDB, Express.js, React, and Node.js for building full-stack web applications.',
       achievements: [
-        'Built 1+ production applications from scratch',
-        'Implemented responsive design for mobile-first approach',
-        'Integrated third-party APIs and payment systems'
+        'Gained hands-on experience with the complete MERN stack (MongoDB, Express.js, React, Node.js)',
+        'Developed and deployed multiple full-stack web applications during internship',
+        'Worked on RESTful API design, integration, and JWT authentication'
       ]
-    },
-    // {
-    //   title: 'Junior Web Developer',
-    //   company: 'WebSolutions Agency',
-    //   period: '2019 - 2020',
-    //   location: 'Lucknow, India',
-    //   description: 'Started my professional journey developing websites for small businesses and learning modern web development practices.',
-    //   achievements: [
-    //     'Created 0+ responsive websites for clients',
-    //     'Learned React.js and modern development workflows',
-    //     'Collaborated with senior developers on larger projects'
-    //   ]
-    // }
+    }
   ];
 
   return (
