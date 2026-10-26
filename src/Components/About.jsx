@@ -30,12 +30,16 @@ const About = () => {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 flex items-center justify-center overflow-hidden">
-              <img
-                src="/images/profile.jpg"
-                alt="Profile"
-                className="w-full h-full object-cover"
-              />
+            <div className="w-72 h-72 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1 flex items-center justify-center overflow-hidden shadow-2xl"
+              style={{ boxShadow: '0 0 40px rgba(102, 126, 234, 0.4)' }}>
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <img
+                  src="/images/profile.jpg"
+                  alt="Sonu Sahani"
+                  className="w-full h-full object-cover"
+                  style={{ objectPosition: 'center 10%' }}
+                />
+              </div>
             </div>
           </div>
         </div>
