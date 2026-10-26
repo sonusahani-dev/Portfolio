@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center justify-center pt-15">
       <div className="max-w-4xl mx-auto text-center px-4">
+        <p className="text-lg md:text-xl text-gray-400 mb-4">Sonu Sahani</p>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
           <span className="gradient-text">
             <Typewriter
@@ -26,6 +27,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
           <a href="#projects" className="btn-primary px-8 py-3 rounded-lg font-semibold text-white">View My Work</a>
           <a href="#contact" className="border border-gray-500 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">Get In Touch</a>
+          <a href="https://www.linkedin.com/in/sonu--sahani/" target="_blank" rel="noreferrer" className="border border-blue-500 px-8 py-3 rounded-lg font-semibold text-blue-400 hover:bg-blue-500 hover:text-white transition">LinkedIn</a>
         </div>
       </div>
     </section>

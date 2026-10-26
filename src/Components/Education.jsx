@@ -10,7 +10,7 @@ const Education = () => {
       description: 'Focused on software engineering, algorithms, and web development. Graduated with a 7.18 CGPA.'
     },
     {
-      icon: 'fas fa-school',
+      icon: 'fas fa-school-flag',
       title: 'Diploma',
       institution: 'Jawahar Lal Nehru Polytechnic, Mahmoodabad, Sitapur',
       period: '2019-2022',
