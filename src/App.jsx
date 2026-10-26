@@ -17,7 +17,7 @@ import Blog from './Components/Blog'
 import FAQ from './Components/FAQ'
 import Newsletter from './Components/Newsletter'
 import Contact from './Components/Contact'
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 
 
 function App() {
